@@ -83,7 +83,7 @@
         android:layout_alignLeft="@+id/textView5"
         android:layout_below="@+id/textView5"
         android:ems="10"
-        android:inputType="number" >
+        android:inputType="text|textPostalAddress" >
 
         <requestFocus />
     </EditText>
