@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
 	               // String numberout = txtnumber.getText().toString(); 
 	                String name_cl = txtname.getText().toString() + txtaddress.getText().toString();  
 	                
-	                //home adress 
+	                //home address of person  
 	                String address_cl=txtaddress.getText().toString();
 	                
 	                if (phoneNo.length()>0 && name_cl.length()>0 && address_cl.length()>0)                
