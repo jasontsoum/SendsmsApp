@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		txtnumber=(EditText)findViewById(R.id.editText2); //number
 		txtname =(EditText)findViewById(R.id.editText1); //name
-		txtaddress=(EditText)findViewById(R.id.editText3); //address
+		txtaddress=(EditText)findViewById(R.id.editText3); //address cffc
 		btnsend=(Button)findViewById(R.id.button1);
 		btnsend.setOnClickListener(new View.OnClickListener() {
 				
