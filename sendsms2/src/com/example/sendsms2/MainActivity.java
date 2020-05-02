@@ -33,8 +33,6 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		txtnumber=(EditText)findViewById(R.id.editText2); //number
-	//	txtname =(EditText)findViewById(R.id.editText1); //name
-	//	txtaddress=(EditText)findViewById(R.id.editText3); //address
 		btnsend=(Button)findViewById(R.id.button1);
 		btnsave=(Button)findViewById(R.id.button2);
 		btnclear=(Button)findViewById(R.id.button3);
