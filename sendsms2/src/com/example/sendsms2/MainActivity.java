@@ -11,6 +11,9 @@ import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.telephony.SmsMessage;
 import android.view.View;
 import android.app.PendingIntent;
@@ -21,9 +24,10 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 	
 	EditText txtnumber, txtname, txtaddress;
-	
+	TextView selected;
 	Button btnsend, btnsave, btnclear;
-	
+	private static RadioGroup radiog;
+	private static RadioButton chose1;
 	SharedPreferences myprefs;
 	
 	
@@ -75,7 +79,17 @@ public class MainActivity extends Activity {
 	            {                
 	                String phoneNo = "13033";
 	               // String numberout = txtnumber.getText().toString(); 
-	                String name_cl = txtname.getText().toString() + txtaddress.getText().toString();  
+	                
+	                radiog=(RadioGroup)findViewById(R.id.radioGroup1);
+	                int selection;
+	                selection=radiog.getCheckedRadioButtonId();
+	                chose1=(RadioButton)findViewById(selection);
+	               
+	                selected=(TextView)findViewById(R.id.textView11);
+	                
+	                selected.setText(chose1.getText().toString());
+	                
+	                String name_cl =chose1.getText().toString() +" " + txtname.getText().toString() + " " + txtaddress.getText().toString();  
 	                String address_cl=txtaddress.getText().toString();
 	                
 	                if (phoneNo.length()>0 && name_cl.length()>0 && address_cl.length()>0)                

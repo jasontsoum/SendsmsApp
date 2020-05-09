@@ -13,5 +13,14 @@
     <string name="choice4">4) Κίνηση για παροχή βοήθειας σε ανθρώπους που βρίσκονται σε ανάγκη.</string>
     <string name="choice5">5) Μετάβαση σε τελετή (π.χ. κηδεία, γάμος, βάφτιση) υπό τους όρους που προβλέπει ο νόμος ή μετάβαση διαζευγμένων γονέων ή γονέων που τελούν σε διάσταση που είναι αναγκαία για τη διασφάλιση της επικοινωνίας γονέων και τέκνων, σύμφωνα με τις κείμενες διατάξεις.</string>
     <string name="choice6">6) Σωματική άσκηση σε εξωτερικό χώρο ή κίνηση με κατοικίδιο ζώο, ατομικά ή ανά δύο άτομα, τηρώντας στην τελευταία αυτή περίπτωση την αναγκαία απόσταση 1,5 μέτρου.</string>
+    <string name="Save">Αποθήκευση </string>
+    <string name="Clear">cls</string>
+    <string name="Send">Αποστολή</string>
+    <string name="option1">1</string>
+    <string name="option2">2</string>
+    <string name="option3">3</string>
+    <string name="option4">4</string>
+    <string name="option5">5</string>
+    <string name="option6">6</string>
 
 </resources>
